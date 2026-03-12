@@ -23,7 +23,9 @@
 
 ## Screenshot
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/95098cc6-6679-4708-9afd-eafec66cad79" width="300"/>
+  <img src="https://github.com/user-attachments/assets/fecc849a-ddc3-4535-b56c-63588d0be322" width="320"/>
+  <img src="https://github.com/user-attachments/assets/95098cc6-6679-4708-9afd-eafec66cad79" width="300"/>  
+  <img src="https://github.com/user-attachments/assets/604a4440-a2d6-4bc4-9de6-85b0ed108409" width="320"/>
 </p>
 
 
