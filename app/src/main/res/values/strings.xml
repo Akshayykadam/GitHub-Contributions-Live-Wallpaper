@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CodeCalendar</string>
+    <string name="wallpaper_description">Live wallpaper displaying your GitHub contributions.</string>
+</resources>

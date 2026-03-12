@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Top Row -->
+    <!-- col 1, r=6 => center=(34,34) => start at (28,34) -->
+    <path android:fillColor="#E28B55" android:pathData="M 28,34 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <path android:fillColor="#2A2A2A" android:pathData="M 48,34 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <path android:fillColor="#FF4000" android:pathData="M 68,34 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    
+    <!-- Middle Row -->
+    <path android:fillColor="#E56A21" android:pathData="M 28,54 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <path android:fillColor="#F75C03" android:pathData="M 48,54 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <path android:fillColor="#2A2A2A" android:pathData="M 68,54 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    
+    <!-- Bottom Row -->
+    <path android:fillColor="#2A2A2A" android:pathData="M 28,74 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <path android:fillColor="#FF4000" android:pathData="M 48,74 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <path android:fillColor="#E28B55" android:pathData="M 68,74 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+</vector>
