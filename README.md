@@ -21,6 +21,11 @@
   - ⚪ **Monochrome:** Pitch black space with pure white highlight dots.
   - 🟢 **Classic Green:** The iconic GitHub greens overlayed on an OLED-friendly pitch black background.
 
+## Screenshot
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/95098cc6-6679-4708-9afd-eafec66cad79" width="300"/>
+</p>
+
 
 ## 🚀 Installation 
 
