@@ -1360,6 +1360,7 @@ NUMBER
 ResourcesCompat
 assertEqualTypes
 RUNNING
+monospace
 sealed
 android.resource
 xi$annotations
@@ -4297,6 +4298,7 @@ uintArrayOf
 edu.umd.cs.findbugs.annotations.Possi...
 DATE_SELECTOR_KEY
 ifPresent
+quotePaint
 withDispatchReceiver
 java.vm.name
 MutableEntry
@@ -4330,6 +4332,7 @@ KProperty0
 java.lang.Character
 isConstructedFromGivenClass
 KProperty1
+DEV_QUOTES
 KProperty2
 unwrapFakeOverrideToAnyDeclaration
 actualTypeArguments

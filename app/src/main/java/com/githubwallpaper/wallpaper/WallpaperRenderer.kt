@@ -2,12 +2,19 @@ package com.githubwallpaper.wallpaper
 
 import android.graphics.Canvas
 import android.graphics.Paint
+import android.graphics.Typeface
 import com.githubwallpaper.data.ContributionDayEntity
 import java.util.Calendar
 
 class WallpaperRenderer {
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.FILL
+    }
+
+    private val quotePaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+        textAlign = Paint.Align.CENTER
+        typeface = Typeface.create("monospace", Typeface.NORMAL)
+        letterSpacing = 0.02f
     }
 
     private var contributions: List<ContributionDayEntity> = emptyList()
@@ -46,8 +53,11 @@ class WallpaperRenderer {
         val calendar = Calendar.getInstance()
         val currentYear = calendar.get(Calendar.YEAR)
         val daysInYear = calendar.getActualMaximum(Calendar.DAY_OF_YEAR)
+        val dayOfYear = calendar.get(Calendar.DAY_OF_YEAR)
 
+        val rows = kotlin.math.ceil(daysInYear.toDouble() / cols.toDouble()).toInt()
         val gridWidth = (cols * cellDiameter) + ((cols - 1) * gap)
+        val gridHeight = (rows * cellDiameter) + ((rows - 1) * gap)
         val startY = height * 0.28f
         val startX = (width - gridWidth) / 2f
 
@@ -77,6 +87,15 @@ class WallpaperRenderer {
 
             yearIter.add(Calendar.DAY_OF_YEAR, 1)
         }
+
+        // Draw developer quote at the bottom
+        val quote = DEV_QUOTES[dayOfYear % DEV_QUOTES.size]
+        quotePaint.color = colors.level1Color
+        quotePaint.textSize = width * 0.032f
+        quotePaint.alpha = 140
+
+        val quoteY = startY + gridHeight + (height * 0.06f)
+        canvas.drawText(quote, width / 2f, quoteY, quotePaint)
     }
 
     private fun getColorForCount(count: Int, themeColors: ThemeColors): Int {
@@ -88,5 +107,39 @@ class WallpaperRenderer {
             else -> themeColors.level4Color
         }
     }
-}
 
+    companion object {
+        private val DEV_QUOTES = listOf(
+            "ship it.",
+            "git commit -m \"progress\"",
+            "one more commit before bed.",
+            "// TODO: sleep",
+            "it compiles. ship it.",
+            "make it work. make it right. make it fast.",
+            "first, solve the problem.",
+            "code is poetry.",
+            "keep shipping.",
+            "debug the world.",
+            "sudo make me productive",
+            "while(alive) { code(); }",
+            "404: excuses not found",
+            "trust the process.",
+            "build → break → learn → repeat",
+            "less talk. more push.",
+            "every expert was once a beginner.",
+            "stay hungry. stay shipping.",
+            "the best code is no code.",
+            "think. build. iterate.",
+            "your future self will thank you.",
+            "consistency > intensity",
+            "commit to the craft.",
+            "progress, not perfection.",
+            "the only way out is through.",
+            "simplicity is the ultimate sophistication.",
+            "done is better than perfect.",
+            "keep your commits atomic.",
+            "refactor your life.",
+            "hello, world."
+        )
+    }
+}
