@@ -1,0 +1,52 @@
+com.githubwallpaper.app-core-1.12.0-0 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/0963830ba0e3a0e3920dcb6430b84222/transformed/core-1.12.0/res
+com.githubwallpaper.app-recyclerview-1.1.0-1 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/09d2f5a199d2b6a259ef16f3ca7f13e4/transformed/recyclerview-1.1.0/res
+com.githubwallpaper.app-appcompat-1.6.1-2 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/0cda5f3f5b95b566aaf46f206a6fa8ad/transformed/appcompat-1.6.1/res
+com.githubwallpaper.app-lifecycle-viewmodel-savedstate-2.6.1-3 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/123c04a23603ede0845e7b9435fc94db/transformed/lifecycle-viewmodel-savedstate-2.6.1/res
+com.githubwallpaper.app-lifecycle-runtime-2.6.1-4 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/34aeee3d7212e997f7e86b09d2b6fe78/transformed/lifecycle-runtime-2.6.1/res
+com.githubwallpaper.app-material-1.11.0-5 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/379becb925cd851b35d6ba264021967f/transformed/material-1.11.0/res
+com.githubwallpaper.app-emoji2-views-helper-1.2.0-6 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/386ffa6391ff49a171b3637237ad27ce/transformed/emoji2-views-helper-1.2.0/res
+com.githubwallpaper.app-preference-1.2.1-7 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/3bfce0e731d298f892ebe3c10d13c0a9/transformed/preference-1.2.1/res
+com.githubwallpaper.app-work-runtime-ktx-2.9.0-8 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/3d8fdc955a4f07d8515bfa3d397d89f2/transformed/work-runtime-ktx-2.9.0/res
+com.githubwallpaper.app-drawerlayout-1.1.1-9 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/45d16f57c93672f80b0c40b6b9958a7c/transformed/drawerlayout-1.1.1/res
+com.githubwallpaper.app-work-runtime-2.9.0-10 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/476be808f8f4bfdb43fbc9e7dbd8e27c/transformed/work-runtime-2.9.0/res
+com.githubwallpaper.app-window-1.0.0-11 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/518fd32599ea5cf4851a57796625ee14/transformed/window-1.0.0/res
+com.githubwallpaper.app-lifecycle-livedata-2.6.1-12 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/53a46e8627541c0702d48f4472a36371/transformed/lifecycle-livedata-2.6.1/res
+com.githubwallpaper.app-preference-ktx-1.2.1-13 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/5dd887152f99db4bf3c01ae69c817ddf/transformed/preference-ktx-1.2.1/res
+com.githubwallpaper.app-fragment-1.5.1-14 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/61d3005a52f846b68c4fb4377ab378a9/transformed/fragment-1.5.1/res
+com.githubwallpaper.app-activity-ktx-1.8.0-15 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/68205db2659dd93af7646fcff8f34a3c/transformed/activity-ktx-1.8.0/res
+com.githubwallpaper.app-savedstate-ktx-1.2.1-16 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/684e095d1e00b5d7df36e4986a53df81/transformed/savedstate-ktx-1.2.1/res
+com.githubwallpaper.app-annotation-experimental-1.3.1-17 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/7487fd2dee159c9199be18df127720e7/transformed/annotation-experimental-1.3.1/res
+com.githubwallpaper.app-sqlite-framework-2.4.0-18 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/7b5cd7708baaa9d9424239af6b8df109/transformed/sqlite-framework-2.4.0/res
+com.githubwallpaper.app-transition-1.4.1-19 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/7cc60bcaec4031029cb9189bc0ac5a52/transformed/transition-1.4.1/res
+com.githubwallpaper.app-lifecycle-process-2.6.1-20 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/7e3775ef2349e2c73c9ba7dd407fba76/transformed/lifecycle-process-2.6.1/res
+com.githubwallpaper.app-activity-1.8.0-21 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/8a7642c3fbabee9b9dce33eb6e8533f1/transformed/activity-1.8.0/res
+com.githubwallpaper.app-appcompat-resources-1.6.1-22 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/9565a491aacddddffacb7f000df98b68/transformed/appcompat-resources-1.6.1/res
+com.githubwallpaper.app-savedstate-1.2.1-23 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/956f629db635005fd3b11c45b502fadc/transformed/savedstate-1.2.1/res
+com.githubwallpaper.app-room-runtime-2.6.1-24 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/959cce8e1a23e2c32cf176da5fd2ad56/transformed/room-runtime-2.6.1/res
+com.githubwallpaper.app-room-ktx-2.6.1-25 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/967f11bfffa1e704385f04091f67ce3c/transformed/room-ktx-2.6.1/res
+com.githubwallpaper.app-slidingpanelayout-1.2.0-26 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/9b345eac49f0467738e8afcff8e62513/transformed/slidingpanelayout-1.2.0/res
+com.githubwallpaper.app-sqlite-2.4.0-27 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/9df08d97f91557806db7bf188207bf33/transformed/sqlite-2.4.0/res
+com.githubwallpaper.app-lifecycle-runtime-ktx-2.6.1-28 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/ae95439699d915aae86d85d565bba0ff/transformed/lifecycle-runtime-ktx-2.6.1/res
+com.githubwallpaper.app-coordinatorlayout-1.1.0-29 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/afd766adb5b1e6fdb5906a53a0e4a52a/transformed/coordinatorlayout-1.1.0/res
+com.githubwallpaper.app-emoji2-1.2.0-30 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/b0239d7fccb7152fce7e0caf029d1cf0/transformed/emoji2-1.2.0/res
+com.githubwallpaper.app-hilt-work-1.2.0-31 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/bcd55759737c34e1bc7a41430ad050e1/transformed/hilt-work-1.2.0/res
+com.githubwallpaper.app-lifecycle-service-2.6.1-32 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/c147fc94cac9a3fb4942753252539a8d/transformed/lifecycle-service-2.6.1/res
+com.githubwallpaper.app-cardview-1.0.0-33 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/c678b41e70532809de2326e720061df5/transformed/cardview-1.0.0/res
+com.githubwallpaper.app-lifecycle-viewmodel-2.6.1-34 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/d366de9f608d0b099920eba1d0229c32/transformed/lifecycle-viewmodel-2.6.1/res
+com.githubwallpaper.app-viewpager2-1.0.0-35 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/d8c45400c81b693477f09bc7a9e0f40d/transformed/viewpager2-1.0.0/res
+com.githubwallpaper.app-lifecycle-livedata-core-ktx-2.6.1-36 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/dacbcaa5c544fb57096598d6ce96c914/transformed/lifecycle-livedata-core-ktx-2.6.1/res
+com.githubwallpaper.app-startup-runtime-1.1.1-37 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/de1785d0206280f14a72dd5e9ec4c9da/transformed/startup-runtime-1.1.1/res
+com.githubwallpaper.app-constraintlayout-2.1.4-38 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/e1fca18b867d072b436866ab80e02ff2/transformed/constraintlayout-2.1.4/res
+com.githubwallpaper.app-core-ktx-1.12.0-39 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/e4599319546ebf3df34f059e82c7caa1/transformed/core-ktx-1.12.0/res
+com.githubwallpaper.app-core-runtime-2.2.0-40 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/e513c9110b74d63114ca4fdb4ad27719/transformed/core-runtime-2.2.0/res
+com.githubwallpaper.app-profileinstaller-1.3.0-41 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/e5e6d7a52ab9e1182083bf7ca6254be9/transformed/profileinstaller-1.3.0/res
+com.githubwallpaper.app-lifecycle-livedata-core-2.6.1-42 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/ead283cfa544e0a8e3933dcd04ccea1f/transformed/lifecycle-livedata-core-2.6.1/res
+com.githubwallpaper.app-lifecycle-viewmodel-ktx-2.6.1-43 /Users/akshaykadam/.gradle/caches/9.3.1/transforms/f81126827726685e1c70ffb9475be475/transformed/lifecycle-viewmodel-ktx-2.6.1/res
+com.githubwallpaper.app-pngs-44 /Users/akshaykadam/Documents/Apps/GitHub Contributions Live Wallpaper/app/build/generated/res/pngs/release
+com.githubwallpaper.app-resValues-45 /Users/akshaykadam/Documents/Apps/GitHub Contributions Live Wallpaper/app/build/generated/res/resValues/release
+com.githubwallpaper.app-packageReleaseResources-46 /Users/akshaykadam/Documents/Apps/GitHub Contributions Live Wallpaper/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.githubwallpaper.app-packageReleaseResources-47 /Users/akshaykadam/Documents/Apps/GitHub Contributions Live Wallpaper/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.githubwallpaper.app-merged-not-compiled-resources-48 /Users/akshaykadam/Documents/Apps/GitHub Contributions Live Wallpaper/app/build/intermediates/merged-not-compiled-resources/release
+com.githubwallpaper.app-release-49 /Users/akshaykadam/Documents/Apps/GitHub Contributions Live Wallpaper/app/build/intermediates/merged_res/release/mergeReleaseResources
+com.githubwallpaper.app-main-50 /Users/akshaykadam/Documents/Apps/GitHub Contributions Live Wallpaper/app/src/main/res
+com.githubwallpaper.app-release-51 /Users/akshaykadam/Documents/Apps/GitHub Contributions Live Wallpaper/app/src/release/res

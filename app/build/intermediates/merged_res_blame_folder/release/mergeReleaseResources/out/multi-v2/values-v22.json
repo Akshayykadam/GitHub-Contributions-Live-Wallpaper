@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.githubwallpaper.app-mergeReleaseResources-46:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/Users/akshaykadam/.gradle/caches/9.3.1/transforms/0cda5f3f5b95b566aaf46f206a6fa8ad/transformed/appcompat-1.6.1/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        }
+    ]
+}

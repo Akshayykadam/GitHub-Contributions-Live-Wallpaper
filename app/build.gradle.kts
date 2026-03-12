@@ -10,22 +10,33 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.githubwallpaper"
+        applicationId = "com.githubwallpaper.codecalendar"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file("../keystore/codecalendar-release.jks")
+            storePassword = "codecalendar123"
+            keyAlias = "codecalendar"
+            keyPassword = "codecalendar123"
+        }
+    }
+
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {

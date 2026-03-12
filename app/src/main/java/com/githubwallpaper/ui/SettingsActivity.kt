@@ -74,6 +74,13 @@ class SettingsActivity : AppCompatActivity() {
             }
         }
 
+        // Auto Dark/Light Switch
+        val switchAutoTheme = findViewById<androidx.appcompat.widget.SwitchCompat>(R.id.switchAutoTheme)
+        switchAutoTheme.isChecked = prefs.getBoolean("auto_switch", false)
+        switchAutoTheme.setOnCheckedChangeListener { _, isChecked ->
+            prefs.edit().putBoolean("auto_switch", isChecked).apply()
+        }
+
         btnVerify.setOnClickListener {
             val username = etUsername.text.toString().trim()
             if (username.isEmpty()) return@setOnClickListener
@@ -104,6 +111,33 @@ class SettingsActivity : AppCompatActivity() {
                         tvStatus.text = "Failed to fetch contributions. Check username and network."
                         tvStatus.setTextColor(android.graphics.Color.parseColor("#FF4C4C"))
                     }
+                }
+            }
+        }
+
+        // Set Wallpaper button
+        val btnSetWallpaper = findViewById<Button>(R.id.btnSetWallpaper)
+        btnSetWallpaper.setOnClickListener {
+            try {
+                val intent = android.content.Intent(
+                    android.app.WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER
+                )
+                intent.putExtra(
+                    android.app.WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT,
+                    android.content.ComponentName(
+                        this,
+                        com.githubwallpaper.wallpaper.GitHubWallpaperService::class.java
+                    )
+                )
+                startActivity(intent)
+            } catch (e: Exception) {
+                // Fallback for devices that don't support ACTION_CHANGE_LIVE_WALLPAPER
+                try {
+                    val fallback = android.content.Intent(android.app.WallpaperManager.ACTION_LIVE_WALLPAPER_CHOOSER)
+                    startActivity(fallback)
+                } catch (e2: Exception) {
+                    tvStatus.text = "Could not open wallpaper picker. Please set manually."
+                    tvStatus.setTextColor(android.graphics.Color.parseColor("#FF4C4C"))
                 }
             }
         }

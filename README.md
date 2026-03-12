@@ -1,7 +1,5 @@
 <div align="center">
-  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" alt="CodeCalendar Logo" width="100"/>
-
-  # CodeCalendar 📅
+# CodeCalendar 📅
   
   **A beautiful, premium Android Live Wallpaper that brings your GitHub Contributions graph right to your home screen.**
   
@@ -23,8 +21,6 @@
   - ⚪ **Monochrome:** Pitch black space with pure white highlight dots.
   - 🟢 **Classic Green:** The iconic GitHub greens overlayed on an OLED-friendly pitch black background.
 
-## 📸 Screenshots
-*(Add screenshots of the Home Screen and the custom Settings UI here)*
 
 ## 🚀 Installation 
 

@@ -58,16 +58,17 @@ class GitHubWallpaperService : WallpaperService() {
         }
 
         override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String?) {
-            if (key == "theme") {
+            if (key == "theme" || key == "auto_switch") {
                 updateThemeFromPrefs()
                 requestDraw()
             }
         }
 
         private fun updateThemeFromPrefs() {
-            val themeStr = prefs.getString("theme", "dark") ?: "dark"
-            val appTheme = AppTheme.values().find { it.id == themeStr } ?: AppTheme.DARK
+            val themeStr = prefs.getString("theme", "premium") ?: "premium"
+            val appTheme = AppTheme.entries.firstOrNull { it.id == themeStr } ?: AppTheme.PREMIUM
             renderer.updateTheme(appTheme)
+            renderer.updateAutoSwitch(prefs.getBoolean("auto_switch", false))
         }
 
         private fun requestDraw() {
